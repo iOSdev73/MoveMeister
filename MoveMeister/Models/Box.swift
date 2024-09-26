@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Represents the details of a box, i.e., name, location etc
 struct Box: Codable, Hashable {
     var name: String
     var location: String?

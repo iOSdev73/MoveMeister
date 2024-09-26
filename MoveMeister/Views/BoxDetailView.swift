@@ -9,11 +9,14 @@ import SwiftUI
 
 struct BoxDetailView: View {
 
-    @State var box: Box
+    // MARK: - Properties
 
+    @State var box: Box
     @State private var items = [Item(name: "")]
     @State private var itemName = ""
     @State private var showEditBoxForm = false
+
+    // MARK: - View
 
     var body: some View {
         VStack {

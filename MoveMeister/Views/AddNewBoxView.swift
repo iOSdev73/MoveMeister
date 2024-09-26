@@ -9,13 +9,16 @@ import SwiftUI
 
 struct AddNewBoxView: View {
 
+    // MARK: - Properties
+
     @State var newBoxName = ""
     @State var newBoxLocation = ""
     @State var newBoxStoreIn = ""
     @Binding var isPresented: Bool
-
     var addBox: (Box) -> Void
 
+    // MARK: - View
+    
     var body: some View {
         NavigationStack {
             Form {

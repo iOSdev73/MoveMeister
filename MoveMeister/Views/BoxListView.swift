@@ -9,10 +9,14 @@ import SwiftUI
 
 struct BoxListView: View {
 
+    // MARK: - Properties
+    
     @State var viewModel = BoxListViewModel()
     @State private var showAddBoxForm = false
     @State private var newBoxName = ""
     @State private var boxList: [Box] = []
+
+    // MARK: - View
 
     var body: some View {
         NavigationStack {

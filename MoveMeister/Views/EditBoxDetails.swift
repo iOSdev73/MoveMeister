@@ -9,10 +9,14 @@ import SwiftUI
 
 struct EditBoxDetails: View {
 
+    // MARK: - Properties
+    
     @Binding var newBoxName: String
     @Binding var newBoxLocation: String
     @Binding var newBoxStoreIn: String
     @Binding var isPresented: Bool
+
+    // MARK: - View
 
     var body: some View {
         NavigationStack {
