@@ -1,0 +1,16 @@
+{
+  "source": "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Views/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Move Meister"
+      },
+      {
+        "comment": "",
+        "key": "Get Started"
+      }
+    ]
+  },
+  "version": 1
+}

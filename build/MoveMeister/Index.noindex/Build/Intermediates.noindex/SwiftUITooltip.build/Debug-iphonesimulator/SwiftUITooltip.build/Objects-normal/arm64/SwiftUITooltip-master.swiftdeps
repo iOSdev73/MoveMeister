@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "c82a1235a94e5f84888b20c9d8d047992ec2025c9fbad067a938bf1021aa179d"
+build_start_time: [1727339784, 143934000]
+build_end_time: [1727339784, 316003000]
+inputs:
+  ? "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/ArrowShape.swift"
+  : [1727339763, 132565295]
+  ? "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/TooltipConfigurations/ArrowOnlyTooltipConfig.swift"
+  : [1727339763, 132749959]
+  ? "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/TooltipConfigurations/DefaultTooltipConfig.swift"
+  : [1727339763, 132928873]
+  ? "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/TooltipConfigurations/TooltipConfig.swift"
+  : [1727339763, 133038788]
+  ? "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/TooltipModifier.swift"
+  : [1727339763, 133294910]
+  ? "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/TooltipSide.swift"
+  : [1727339763, 133385700]
+  ? "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/TooltipViewExtension.swift"
+  : [1727339763, 133558448]

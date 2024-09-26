@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+Target 'MoveMeister' in project 'MoveMeister' (no dependencies)
+Target 'MoveMeister' in project 'MoveMeister' (no dependencies)

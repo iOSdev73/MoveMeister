@@ -1,0 +1,30 @@
+{
+  "" : {
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/SwiftUITooltip.build/Debug-iphonesimulator/SwiftUITooltip.build/Objects-normal/arm64/SwiftUITooltip-master.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/SwiftUITooltip.build/Debug-iphonesimulator/SwiftUITooltip.build/Objects-normal/arm64/SwiftUITooltip-master.dia",
+    "emit-module-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/SwiftUITooltip.build/Debug-iphonesimulator/SwiftUITooltip.build/Objects-normal/arm64/SwiftUITooltip-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/SwiftUITooltip.build/Debug-iphonesimulator/SwiftUITooltip.build/Objects-normal/arm64/SwiftUITooltip-master-emit-module.dia",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/SwiftUITooltip.build/Debug-iphonesimulator/SwiftUITooltip.build/Objects-normal/arm64/SwiftUITooltip-master.swiftdeps"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/ArrowShape.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/TooltipConfigurations/ArrowOnlyTooltipConfig.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/TooltipConfigurations/DefaultTooltipConfig.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/TooltipConfigurations/TooltipConfig.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/TooltipModifier.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/TooltipSide.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/SwiftUI-Tooltip/Sources/SwiftUITooltip/TooltipViewExtension.swift" : {
+
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "" : {
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/MoveMeister-master.dia",
+    "emit-module-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/MoveMeister-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/MoveMeister-master-emit-module.dia",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/MoveMeister-master.swiftdeps"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Models/Box.swift" : {
+    "const-values" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Box.swiftconstvalues",
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Box.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Box.dia",
+    "index-unit-output-path" : "/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Box.o",
+    "llvm-bc" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Box.bc",
+    "object" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Box.o",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Box.swiftdeps",
+    "swiftmodule" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Box~partial.swiftmodule"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Models/Item.swift" : {
+    "const-values" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Item.swiftconstvalues",
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Item.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Item.dia",
+    "index-unit-output-path" : "/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Item.o",
+    "llvm-bc" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Item.bc",
+    "object" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Item.o",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Item.swiftdeps",
+    "swiftmodule" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/Item~partial.swiftmodule"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/MoveMeisterApp.swift" : {
+    "const-values" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/MoveMeisterApp.swiftconstvalues",
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/MoveMeisterApp.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/MoveMeisterApp.dia",
+    "index-unit-output-path" : "/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/MoveMeisterApp.o",
+    "llvm-bc" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/MoveMeisterApp.bc",
+    "object" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/MoveMeisterApp.o",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/MoveMeisterApp.swiftdeps",
+    "swiftmodule" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/MoveMeisterApp~partial.swiftmodule"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/ViewModels/BoxDetailViewModel.swift" : {
+    "const-values" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailViewModel.swiftconstvalues",
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailViewModel.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailViewModel.dia",
+    "index-unit-output-path" : "/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailViewModel.o",
+    "llvm-bc" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailViewModel.bc",
+    "object" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailViewModel.o",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailViewModel.swiftdeps",
+    "swiftmodule" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailViewModel~partial.swiftmodule"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/ViewModels/BoxListViewModel.swift" : {
+    "const-values" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListViewModel.swiftconstvalues",
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListViewModel.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListViewModel.dia",
+    "index-unit-output-path" : "/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListViewModel.o",
+    "llvm-bc" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListViewModel.bc",
+    "object" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListViewModel.o",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListViewModel.swiftdeps",
+    "swiftmodule" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListViewModel~partial.swiftmodule"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Views/AddNewBoxView.swift" : {
+    "const-values" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/AddNewBoxView.swiftconstvalues",
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/AddNewBoxView.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/AddNewBoxView.dia",
+    "index-unit-output-path" : "/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/AddNewBoxView.o",
+    "llvm-bc" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/AddNewBoxView.bc",
+    "object" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/AddNewBoxView.o",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/AddNewBoxView.swiftdeps",
+    "swiftmodule" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/AddNewBoxView~partial.swiftmodule"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Views/BoxDetailView.swift" : {
+    "const-values" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailView.swiftconstvalues",
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailView.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailView.dia",
+    "index-unit-output-path" : "/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailView.o",
+    "llvm-bc" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailView.bc",
+    "object" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailView.o",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailView.swiftdeps",
+    "swiftmodule" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxDetailView~partial.swiftmodule"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Views/BoxListView.swift" : {
+    "const-values" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListView.swiftconstvalues",
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListView.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListView.dia",
+    "index-unit-output-path" : "/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListView.o",
+    "llvm-bc" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListView.bc",
+    "object" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListView.o",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListView.swiftdeps",
+    "swiftmodule" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/BoxListView~partial.swiftmodule"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Views/ContentView.swift" : {
+    "const-values" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Views/EditBoxDetails.swift" : {
+    "const-values" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EditBoxDetails.swiftconstvalues",
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EditBoxDetails.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EditBoxDetails.dia",
+    "index-unit-output-path" : "/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EditBoxDetails.o",
+    "llvm-bc" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EditBoxDetails.bc",
+    "object" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EditBoxDetails.o",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EditBoxDetails.swiftdeps",
+    "swiftmodule" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EditBoxDetails~partial.swiftmodule"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Views/EmptyBoxView.swift" : {
+    "const-values" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EmptyBoxView.swiftconstvalues",
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EmptyBoxView.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EmptyBoxView.dia",
+    "index-unit-output-path" : "/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EmptyBoxView.o",
+    "llvm-bc" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EmptyBoxView.bc",
+    "object" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EmptyBoxView.o",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EmptyBoxView.swiftdeps",
+    "swiftmodule" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/EmptyBoxView~partial.swiftmodule"
+  }
+}

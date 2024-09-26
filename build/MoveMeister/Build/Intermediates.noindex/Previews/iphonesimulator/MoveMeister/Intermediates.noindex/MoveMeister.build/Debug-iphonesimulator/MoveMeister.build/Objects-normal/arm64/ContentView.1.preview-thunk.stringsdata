@@ -1,0 +1,16 @@
+{
+  "source": "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Build/Intermediates.noindex/Previews/iphonesimulator/MoveMeister/Intermediates.noindex/MoveMeister.build/Debug-iphonesimulator/MoveMeister.build/Objects-normal/arm64/ContentView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Move Meister"
+      },
+      {
+        "comment": "",
+        "key": "Get Started"
+      }
+    ]
+  },
+  "version": 1
+}

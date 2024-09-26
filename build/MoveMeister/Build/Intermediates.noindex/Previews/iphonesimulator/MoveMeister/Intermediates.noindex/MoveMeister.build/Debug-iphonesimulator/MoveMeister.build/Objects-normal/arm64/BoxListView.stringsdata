@@ -1,0 +1,16 @@
+{
+  "source": "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Views/BoxListView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "List of Boxes"
+      },
+      {
+        "comment": "",
+        "key": "Add new box"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "shiny-swift-ui#hover-tooltip-modifier-macos",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/Flowductive/shiny-swift-ui#hover-tooltip-modifier-macos",
+          "name" : "ShinySwiftUI"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "fc1f779fc1bfc0701d0d22cd11ef91e0c15a7f92",
+            "version" : "1.2.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "shiny-swift-ui#hover-tooltip-modifier-macos"
+      }
+    ]
+  },
+  "version" : 6
+}

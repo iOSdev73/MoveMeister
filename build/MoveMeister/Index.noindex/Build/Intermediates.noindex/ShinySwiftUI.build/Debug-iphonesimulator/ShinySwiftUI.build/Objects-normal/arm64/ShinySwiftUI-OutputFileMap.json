@@ -1,0 +1,90 @@
+{
+  "" : {
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/ShinySwiftUI.build/Debug-iphonesimulator/ShinySwiftUI.build/Objects-normal/arm64/ShinySwiftUI-master.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/ShinySwiftUI.build/Debug-iphonesimulator/ShinySwiftUI.build/Objects-normal/arm64/ShinySwiftUI-master.dia",
+    "emit-module-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/ShinySwiftUI.build/Debug-iphonesimulator/ShinySwiftUI.build/Objects-normal/arm64/ShinySwiftUI-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/ShinySwiftUI.build/Debug-iphonesimulator/ShinySwiftUI.build/Objects-normal/arm64/ShinySwiftUI-master-emit-module.dia",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/ShinySwiftUI.build/Debug-iphonesimulator/ShinySwiftUI.build/Objects-normal/arm64/ShinySwiftUI-master.swiftdeps"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Enumerations/_OpacityLevel.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Enumerations/_SlickAnimationStyle.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/Animation.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/AnyTransition.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/Color/Color.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/Color/Color+Codable.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/Color/Color+Effects.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/Divider.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/Image.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/ScrollView.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/Spacer.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/Text.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/View/View.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/View/View+Button.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/View/View+Highlight.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/View/View+Mouse.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/SwiftUI/View/View+Tooltip.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/UIKit/CGFloat.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Extensions/UIKit/UIDevice.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Shapes/Line.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Shapes/Wedge.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/ShinySwiftUI.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Views/EnumPicker.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Views/GStack.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Views/HoverView.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Views/ShoveView.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/SourcePackages/checkouts/shiny-swift-ui#hover-tooltip-modifier-macos/Sources/ShinySwiftUI/Views/VisualEffectView.swift" : {
+
+  }
+}

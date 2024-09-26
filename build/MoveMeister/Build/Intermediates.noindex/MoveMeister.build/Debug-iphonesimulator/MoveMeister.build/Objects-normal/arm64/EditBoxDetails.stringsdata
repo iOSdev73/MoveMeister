@@ -1,0 +1,36 @@
+{
+  "source": "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Views/EditBoxDetails.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Edit Box Detials"
+      },
+      {
+        "comment": "",
+        "key": "Box Details"
+      },
+      {
+        "comment": "",
+        "key": "Box name"
+      },
+      {
+        "comment": "",
+        "key": "Box Room"
+      },
+      {
+        "comment": "",
+        "key": "Where is the box stored"
+      },
+      {
+        "comment": "",
+        "key": "Cancel"
+      },
+      {
+        "comment": "",
+        "key": "Save Box"
+      }
+    ]
+  },
+  "version": 1
+}

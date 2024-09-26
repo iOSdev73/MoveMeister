@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'MoveMeister' in project 'MoveMeister'
+➜ Explicit dependency on target 'SwiftUITooltip' in project 'SwiftUITooltip'
+Target 'SwiftUITooltip' in project 'SwiftUITooltip'
+➜ Explicit dependency on target 'SwiftUITooltip' in project 'SwiftUITooltip'
+Target 'SwiftUITooltip' in project 'SwiftUITooltip' (no dependencies)

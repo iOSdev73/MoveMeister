@@ -1,0 +1,4 @@
+module SwiftUITooltip {
+header "SwiftUITooltip-Swift.h"
+export *
+}

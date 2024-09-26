@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "07AB51628137F6C54BF8BF8AD2A055E065B713C0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "07AB51628137F6C54BF8BF8AD2A055E065B713C0" : 0,
+    "C0EBBC17AD76A4678A53E40B6D0E6E64045DE13B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3C595D12-9673-42D3-A7A0-997C0D28E096",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "07AB51628137F6C54BF8BF8AD2A055E065B713C0" : "iOS-work\/",
+    "C0EBBC17AD76A4678A53E40B6D0E6E64045DE13B" : "iOS-work\/SwiftUI%20Udemy\/udemy2\/MoveMeister\/build\/MoveMeister\/SourcePackages\/checkouts\/SwiftUI-Tooltip\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MoveMeister",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftUI Udemy\/udemy2\/MoveMeister\/MoveMeister.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fatimaakram9396\/iOS-work.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07AB51628137F6C54BF8BF8AD2A055E065B713C0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/fatima.akram\/Documents\/iOS-work\/SwiftUI%20Udemy\/udemy2\/MoveMeister\/build\/MoveMeister\/SourcePackages\/repositories\/SwiftUI-Tooltip-373d4666",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C0EBBC17AD76A4678A53E40B6D0E6E64045DE13B"
+    }
+  ]
+}

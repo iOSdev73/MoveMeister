@@ -1,0 +1,36 @@
+{
+  "source": "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Views/AddNewBoxView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Add New Box"
+      },
+      {
+        "comment": "",
+        "key": "Box Details"
+      },
+      {
+        "comment": "",
+        "key": "Box name"
+      },
+      {
+        "comment": "",
+        "key": "Box Room"
+      },
+      {
+        "comment": "",
+        "key": "Where is the box stored"
+      },
+      {
+        "comment": "",
+        "key": "Cancel"
+      },
+      {
+        "comment": "",
+        "key": "Add Box"
+      }
+    ]
+  },
+  "version": 1
+}

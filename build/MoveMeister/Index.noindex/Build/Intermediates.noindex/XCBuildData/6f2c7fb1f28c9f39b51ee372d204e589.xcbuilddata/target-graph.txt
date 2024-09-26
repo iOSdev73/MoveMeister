@@ -1,0 +1,11 @@
+Target dependency graph (6 targets)
+Target 'MoveMeister' in project 'MoveMeister'
+➜ Explicit dependency on target 'ShinySwiftUI' in project 'ShinySwiftUI'
+Target 'ShinySwiftUI' in project 'ShinySwiftUI'
+➜ Explicit dependency on target 'ShinySwiftUI' in project 'ShinySwiftUI'
+Target 'ShinySwiftUI' in project 'ShinySwiftUI' (no dependencies)
+Target 'MoveMeister' in project 'MoveMeister'
+➜ Explicit dependency on target 'ShinySwiftUI' in project 'ShinySwiftUI'
+Target 'ShinySwiftUI' in project 'ShinySwiftUI'
+➜ Explicit dependency on target 'ShinySwiftUI' in project 'ShinySwiftUI'
+Target 'ShinySwiftUI' in project 'ShinySwiftUI' (no dependencies)

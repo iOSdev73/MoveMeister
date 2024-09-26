@@ -1,0 +1,4 @@
+module ShinySwiftUI {
+header "ShinySwiftUI-Swift.h"
+export *
+}

@@ -1,0 +1,12 @@
+{
+  "source": "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Views/EmptyBoxView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "No boxes added yet. Plese tap on the Add New Box button to add your moving boxes."
+      }
+    ]
+  },
+  "version": 1
+}

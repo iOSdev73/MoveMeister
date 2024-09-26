@@ -1,0 +1,27 @@
+{
+  "" : {
+    "dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/MoveMeister.build/Debug-iphoneos/MoveMeister.build/Objects-normal/arm64/MoveMeister-master.d",
+    "diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/MoveMeister.build/Debug-iphoneos/MoveMeister.build/Objects-normal/arm64/MoveMeister-master.dia",
+    "emit-module-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/MoveMeister.build/Debug-iphoneos/MoveMeister.build/Objects-normal/arm64/MoveMeister-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/MoveMeister.build/Debug-iphoneos/MoveMeister.build/Objects-normal/arm64/MoveMeister-master-emit-module.dia",
+    "swift-dependencies" : "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/MoveMeister.build/Debug-iphoneos/MoveMeister.build/Objects-normal/arm64/MoveMeister-master.swiftdeps"
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/build/MoveMeister/Index.noindex/Build/Intermediates.noindex/MoveMeister.build/Debug-iphoneos/MoveMeister.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/BoxList/BoxListView.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/BoxList/BoxListViewModel.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/ContentView.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/Model/Box.swift" : {
+
+  },
+  "/Users/fatima.akram/Documents/iOS-work/SwiftUI Udemy/udemy2/MoveMeister/MoveMeister/MoveMeisterApp.swift" : {
+
+  }
+}
