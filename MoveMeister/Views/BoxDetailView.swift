@@ -13,7 +13,6 @@ struct BoxDetailView: View {
 
     @State var box: Box
     @State private var items = [Item(name: "")]
-    @State private var itemName = ""
     @State private var showEditBoxForm = false
 
     // MARK: - View
@@ -24,11 +23,13 @@ struct BoxDetailView: View {
                 
             }
             List {
-                ForEach(items) { item in
+                ForEach($items) { $item in
                     HStack {
-                        TextField("Enter new item", text: $itemName)
+                        TextField("Enter new item", text: $item.name)
                             .onSubmit {
-                                print("On submit pressed")
+                                if !item.name.isEmpty {
+                                      items.append(Item(name: ""))
+                                  }
                             }
                     }
                 }
