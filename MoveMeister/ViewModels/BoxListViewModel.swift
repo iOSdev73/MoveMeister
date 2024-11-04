@@ -9,11 +9,21 @@ import Foundation
 import CoreData
 import SwiftUI
 
-@Observable
-class BoxListViewModel {
+class BoxListViewModel: ObservableObject {
 
-    func addNewBox(name: String, location: String, storedIn: String) {
-        _ = Box(name: name, location: location, storedIn: storedIn)
-       // boxList.append(newBox)
+    @Published var boxList: [Box] //bcy we need views to update
+
+    init(boxList: [Box] = []) {
+        self.boxList = boxList
+    }
+
+    func addBox(box: Box) {
+        //_ = Box(name: name, location: location, storedIn: storedIn)
+        boxList.append(box)
+        self.objectWillChange.send()
+    }
+
+    func removeBox(box: Box) {
+        boxList.removeAll { $0 == box }
     }
 }

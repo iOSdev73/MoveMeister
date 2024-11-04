@@ -11,9 +11,7 @@ struct EditBoxDetails: View {
 
     // MARK: - Properties
     
-    @Binding var newBoxName: String
-    @Binding var newBoxLocation: String
-    @Binding var newBoxStoreIn: String
+    @Binding var box: Box
     @Binding var isPresented: Bool
 
     // MARK: - View
@@ -22,9 +20,9 @@ struct EditBoxDetails: View {
         NavigationStack {
             Form {
                 Section(header: Text("Box Details")) {
-                    TextField("Box name", text: $newBoxName)
-                    TextField("Box Room", text: $newBoxLocation)
-                    TextField("Where is the box stored", text: $newBoxStoreIn)
+                    TextField("Box name", text: $box.name)
+                    TextField("Box Room", text: $box.location)
+                    TextField("Where is the box stored", text: $box.storedIn)
                 }
             }
             .navigationTitle("Edit Box Detials")
@@ -37,9 +35,9 @@ struct EditBoxDetails: View {
                 }
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Save Box") {
-                        if !newBoxName.isEmpty {
-                            newBoxName = newBoxName
-                            newBoxLocation = newBoxLocation
+                        if !box.name.isEmpty {
+                            box.name = box.name
+                            box.location = box.location
                             print(isPresented)
                             isPresented = false
                         }

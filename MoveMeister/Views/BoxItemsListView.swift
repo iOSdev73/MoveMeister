@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct BoxDetailView: View {
+struct BoxItemsListView: View {
 
     // MARK: - Properties
 
-    @State var box: Box
+    @Binding var box: Box
     @State private var items = [Item(name: "")]
     @State private var showEditBoxForm = false
 
@@ -47,9 +47,7 @@ struct BoxDetailView: View {
                     }
                     .popover(isPresented: $showEditBoxForm) {
                         VStack {
-                            EditBoxDetails(newBoxName: $box.name,
-                                           newBoxLocation: optionalBinding($box.location, defaultValue: ""),
-                                           newBoxStoreIn: optionalBinding($box.storedIn, defaultValue: ""),
+                            EditBoxDetails(box: $box,
                                            isPresented: $showEditBoxForm)
                         }
                     }

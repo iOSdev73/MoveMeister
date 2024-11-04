@@ -11,32 +11,31 @@ struct BoxListView: View {
 
     // MARK: - Properties
     
-    @State var viewModel = BoxListViewModel()
+    @StateObject var viewModel = BoxListViewModel(boxList: Box.dummyData(5)) // but when its an object then its StateObject
     @State private var showAddBoxForm = false
-    @State private var newBoxName = ""
-    @State private var boxList: [Box] = []
+    //@State private var newBoxName = ""
 
     // MARK: - View
 
     var body: some View {
         NavigationStack {
             VStack {
-                if boxList.isEmpty {
+                if viewModel.boxList.isEmpty {
                     Spacer(minLength: 100)
                     EmptyBoxView()
                         .padding()
                 }
-                List (boxList, id: \.self) { box in
+                List($viewModel.boxList) { box in
                     NavigationLink {
-                        BoxDetailView(box: box)
+                        BoxItemsListView(box: box)
                     } label: {
-                        Text(box.name.capitalized)
+                        Text(box.wrappedValue.name.capitalized) // bcz its a bidning
                     }
                 }
                 .toolbar(content: {
                     ToolbarItem(placement: .bottomBar) {
                         Button {
-                            newBoxName = "" 
+                            //newBoxName = "" 
                             showAddBoxForm = true
                         } label: {
                             HStack {
@@ -53,7 +52,7 @@ struct BoxListView: View {
             .navigationTitle("List of Boxes")
             .sheet(isPresented: $showAddBoxForm) {
                 AddNewBoxView(isPresented: $showAddBoxForm) { newBox in
-                    boxList.append(newBox)
+                    viewModel.boxList.append(newBox)
                 }
             }
         }
