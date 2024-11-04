@@ -8,8 +8,33 @@
 import Foundation
 
 /// Represents the details of a box, i.e., name, location etc
-struct Box: Codable, Hashable {
+struct Box: Codable, Hashable, Identifiable, Equatable { // you could add a Sortable 
+    var id: String{
+        name
+    }
     var name: String
-    var location: String?
-    var storedIn: String?
+    var location: String = ""
+    var storedIn: String = ""
+
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        lhs.id == rhs.id
+    }
+
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+}
+
+// add items
+
+extension Box {
+    static func dummyData(_ num: Int = 10, filled: Bool = true) -> [Box] {
+        (0...num).map { idx in
+            if filled {
+                Box(name: "Box \(idx)", location: "Location \(idx)", storedIn: "Stored In \(idx)")
+            } else {
+                Box(name: "Box \(idx)")
+            }
+        }
+    }
 }
