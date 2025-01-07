@@ -8,7 +8,7 @@
 import Foundation
 
 /// Represents the items in a box
-struct Item: Identifiable {
+struct Item: Codable, Identifiable {
     let id = UUID()
     var name: String
 }

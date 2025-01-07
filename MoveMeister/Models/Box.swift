@@ -15,6 +15,7 @@ struct Box: Codable, Hashable, Identifiable, Equatable { // you could add a Sort
     var name: String
     var location: String = ""
     var storedIn: String = ""
+    var items: [Item] = [Item]()
 
     static func == (lhs: Self, rhs: Self) -> Bool {
         lhs.id == rhs.id

@@ -26,4 +26,15 @@ class BoxListViewModel: ObservableObject {
     func removeBox(box: Box) {
         boxList.removeAll { $0 == box }
     }
+
+    //  Items List
+
+    func addItem(_ box: Box, _ newItem: String) -> [Item]{
+        var boxWithNewItem = box
+        if !newItem.isEmpty {
+            boxWithNewItem.items.append(Item(name: newItem))
+            self.objectWillChange.send()
+        }
+        return boxWithNewItem.items
+    }
 }
