@@ -48,8 +48,3 @@ struct AddNewBoxView: View {
         }
     }
 }
-
-
-//#Preview {
-//    AddNewBoxView(newBoxName: "NewBox", isPresented: true, onAdd: <#() -> Void#>)
-//}

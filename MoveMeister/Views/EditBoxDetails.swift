@@ -47,7 +47,3 @@ struct EditBoxDetails: View {
         }
     }
 }
-
-//#Preview {
-//    EditBoxDetails(newBoxName: "1", newBoxLocation: "Kitchen", newBoxStoreIn: "Living Room")
-//}

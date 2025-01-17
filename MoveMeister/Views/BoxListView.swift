@@ -11,9 +11,8 @@ struct BoxListView: View {
 
     // MARK: - Properties
     
-    @StateObject var viewModel = BoxListViewModel(boxList: Box.dummyData(5)) // but when its an object then its StateObject
+    @StateObject var viewModel = BoxListViewModel(boxList: Box.dummyData(5))
     @State private var showAddBoxForm = false
-    //@State private var newBoxName = ""
 
     // MARK: - View
 
@@ -29,7 +28,7 @@ struct BoxListView: View {
                     NavigationLink {
                         BoxItemsListView(box: box)
                     } label: {
-                        Text(box.wrappedValue.name.capitalized) // bcz its a bidning
+                        Text(box.wrappedValue.name.capitalized)
                     }
                 }
                 .toolbar(content: {

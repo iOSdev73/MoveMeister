@@ -45,7 +45,3 @@ struct BoxItemsListView: View {
          .padding()
      }
 }
-
-//#Preview {
-//    BoxDetailView(box: Box(name: "Kitchen", location: nil, storedIn: nil))
-//}

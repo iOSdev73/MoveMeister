@@ -11,14 +11,13 @@ import SwiftUI
 
 class BoxListViewModel: ObservableObject {
 
-    @Published var boxList: [Box] //bcy we need views to update
+    @Published var boxList: [Box]
 
     init(boxList: [Box] = []) {
         self.boxList = boxList
     }
 
     func addBox(box: Box) {
-        //_ = Box(name: name, location: location, storedIn: storedIn)
         boxList.append(box)
         self.objectWillChange.send()
     }

@@ -8,7 +8,7 @@
 import Foundation
 
 /// Represents the details of a box, i.e., name, location etc
-struct Box: Codable, Hashable, Identifiable, Equatable { // you could add a Sortable 
+struct Box: Codable, Hashable, Identifiable, Equatable {
     var id: String{
         name
     }
@@ -25,8 +25,6 @@ struct Box: Codable, Hashable, Identifiable, Equatable { // you could add a Sort
         hasher.combine(id)
     }
 }
-
-// add items
 
 extension Box {
     static func dummyData(_ num: Int = 10, filled: Bool = true) -> [Box] {
