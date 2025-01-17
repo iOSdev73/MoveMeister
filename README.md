@@ -15,10 +15,9 @@ An app to make moving easier for you. This will help you keep track of what is s
 Happy Moving!
 
 # ⚙️ Usage
-Boxes can be added, with a specific name, it can be descriptive or simply numerical. What are the box contents can be defines, i.e., "Kitchen" a nd also where it is stored right now, i.e., "Cellar" 
+Boxes can be added, with a specific name, it can be descriptive or simply numerical, i.e., "Kitchen". 
 
-A list of all items can be added to each box, with a bullet next to each item. 
-It can help while unpacking, to keep track of what items are still in the box and what items have been unpacked already.
+A list of all items can be added to each box.
 
 ## Architecture Overview
 

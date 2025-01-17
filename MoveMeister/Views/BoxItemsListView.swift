@@ -42,6 +42,22 @@ struct BoxItemsListView: View {
 
          }
          .navigationTitle(box.name)
+         .toolbar {
+             ToolbarItem (placement: .navigationBarTrailing) {
+                 Button {
+                     showEditBoxForm = true
+                 } label: {
+                     Image(systemName: "info.circle")
+                         .foregroundColor(.orange)
+                 }
+                 .popover(isPresented: $showEditBoxForm) {
+                     VStack {
+                         EditBoxDetails(box: $box,
+                                        isPresented: $showEditBoxForm)
+                     }
+                 }
+             }
+         }
          .padding()
      }
 }
