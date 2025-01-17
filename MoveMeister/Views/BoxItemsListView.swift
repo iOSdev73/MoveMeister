@@ -12,59 +12,36 @@ struct BoxItemsListView: View {
     // MARK: - Properties
 
     @Binding var box: Box
-    @State private var items = [Item(name: "")]
+    @StateObject var viewModel = BoxListViewModel()
     @State private var showEditBoxForm = false
+    @State private var newItemName = ""
 
     // MARK: - View
 
     var body: some View {
-        VStack {
-            if items.isEmpty {
-                
-            }
-            List {
-                ForEach($items) { $item in
-                    HStack {
-                        TextField("Enter new item", text: $item.name)
-                            .onSubmit {
-                                if !item.name.isEmpty {
-                                      items.append(Item(name: ""))
-                                  }
-                            }
-                    }
-                }
-            }
-            .scrollContentBackground(.hidden)
-            .navigationTitle(box.name)
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem (placement: .navigationBarTrailing) {
-                    Button {
-                        showEditBoxForm = true
-                    } label: {
-                        Image(systemName: "info.circle")
-                            .foregroundColor(.orange)
-                    }
-                    .popover(isPresented: $showEditBoxForm) {
-                        VStack {
-                            EditBoxDetails(box: $box,
-                                           isPresented: $showEditBoxForm)
-                        }
-                    }
-                }
-            }
-        }
-    }
+         VStack {
+             List(box.items.indices, id: \.self) { index in
+                     HStack {
+                         Image(systemName: "\(index + 1).circle")
+                             .foregroundStyle(.orange)
+                         TextField(box.items[index].name, text: Binding(
+                             get: { box.items[index].name },
+                             set: { box.items[index].name = $0 }
+                         ))
+                     }
+             }
+             .listStyle(PlainListStyle())
 
-    // helper fucntion for optional bindings
-    func optionalBinding(_ optional: Binding<String?>, defaultValue: String) -> Binding<String> {
-        return Binding<String>(
-            get: { optional.wrappedValue ?? defaultValue },
-            set: {_ in }
-        )
-    }
+             TextField("Enter new item", text: $newItemName, onCommit: {
+                 box.items = viewModel.addItem(box, $newItemName.wrappedValue)
+                 /// Empty the item name field
+                 newItemName = ""
+             })
+             .textFieldStyle(RoundedBorderTextFieldStyle())
+             .padding()
+
+         }
+         .navigationTitle(box.name)
+         .padding()
+     }
 }
-
-//#Preview {
-//    BoxDetailView(box: Box(name: "Kitchen", location: nil, storedIn: nil))
-//}

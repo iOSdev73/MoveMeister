@@ -17,7 +17,6 @@
 		644BC54F2C6DE570004A5DFF /* AddNewBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644BC54E2C6DE570004A5DFF /* AddNewBoxView.swift */; };
 		644BC5512C6DE878004A5DFF /* EmptyBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644BC5502C6DE878004A5DFF /* EmptyBoxView.swift */; };
 		644BC5552C6F5B57004A5DFF /* BoxItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644BC5542C6F5B57004A5DFF /* BoxItemsListView.swift */; };
-		644BC5572C6F5EC7004A5DFF /* BoxDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644BC5562C6F5EC7004A5DFF /* BoxDetailViewModel.swift */; };
 		644BC5592C6F6955004A5DFF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644BC5582C6F6955004A5DFF /* Item.swift */; };
 		648130182CA5578D0091DC38 /* EditBoxDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648130172CA5578D0091DC38 /* EditBoxDetails.swift */; };
 /* End PBXBuildFile section */
@@ -34,7 +33,6 @@
 		644BC54E2C6DE570004A5DFF /* AddNewBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBoxView.swift; sourceTree = "<group>"; };
 		644BC5502C6DE878004A5DFF /* EmptyBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyBoxView.swift; sourceTree = "<group>"; };
 		644BC5542C6F5B57004A5DFF /* BoxItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxItemsListView.swift; sourceTree = "<group>"; };
-		644BC5562C6F5EC7004A5DFF /* BoxDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxDetailViewModel.swift; sourceTree = "<group>"; };
 		644BC5582C6F6955004A5DFF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		648130172CA5578D0091DC38 /* EditBoxDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBoxDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				644BC5442C6D475D004A5DFF /* BoxListViewModel.swift */,
-				644BC5562C6F5EC7004A5DFF /* BoxDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -202,7 +199,6 @@
 				644BC5552C6F5B57004A5DFF /* BoxItemsListView.swift in Sources */,
 				644BC5372C6D46BA004A5DFF /* MoveMeisterApp.swift in Sources */,
 				644BC5452C6D475D004A5DFF /* BoxListViewModel.swift in Sources */,
-				644BC5572C6F5EC7004A5DFF /* BoxDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
