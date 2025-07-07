@@ -6,24 +6,28 @@
 //
 
 import Foundation
+import SwiftData
 
 /// Represents the details of a box, i.e., name, location etc
-struct Box: Codable, Hashable, Identifiable, Equatable {
-    var id: String{
-        name
-    }
+@Model
+class Box {
+    @Attribute(.unique) var id: UUID
     var name: String
-    var location: String = ""
-    var storedIn: String = ""
-    var items: [Item] = [Item]()
+    var location: String
+    var storedIn: String
+    var items: [Item]
 
-    static func == (lhs: Self, rhs: Self) -> Bool {
-        lhs.id == rhs.id
+    init(id: UUID = UUID(), name: String, location: String = "", storedIn: String = "", items: [Item] = [Item]()) {
+        self.id = id
+        self.name = name
+        self.location = location
+        self.storedIn = storedIn
+        self.items = items
     }
 
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
-    }
+//    func hash(into hasher: inout Hasher) {
+//        hasher.combine(id)
+//    }
 }
 
 extension Box {

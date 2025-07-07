@@ -38,7 +38,6 @@ struct EditBoxDetails: View {
                         if !box.name.isEmpty {
                             box.name = box.name
                             box.location = box.location
-                            print(isPresented)
                             isPresented = false
                         }
                     }

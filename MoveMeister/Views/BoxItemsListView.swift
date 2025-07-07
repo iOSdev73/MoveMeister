@@ -12,52 +12,51 @@ struct BoxItemsListView: View {
     // MARK: - Properties
 
     @Binding var box: Box
-    @StateObject var viewModel = BoxListViewModel()
+    @StateObject var viewModel = BoxListViewModel(items: Item.dummyData(5))
     @State private var showEditBoxForm = false
-    @State private var newItemName = ""
+    @State private var newItemName = " "
+    @FocusState private var isNewItemFocused: Bool
 
     // MARK: - View
 
     var body: some View {
-         VStack {
-             List(box.items.indices, id: \.self) { index in
-                     HStack {
-                         Image(systemName: "\(index + 1).circle")
-                             .foregroundStyle(.orange)
-                         TextField(box.items[index].name, text: Binding(
-                             get: { box.items[index].name },
-                             set: { box.items[index].name = $0 }
-                         ))
-                     }
-             }
-             .listStyle(PlainListStyle())
+        VStack {
+            TextEditor(text: $newItemName)
+                .onChange(of: newItemName) { oldValue, newValue in
+                    guard newValue.last == "\n" else { return }
 
-             TextField("Enter new item", text: $newItemName, onCommit: {
-                 box.items = viewModel.addItem(box, $newItemName.wrappedValue)
-                 /// Empty the item name field
-                 newItemName = ""
-             })
-             .textFieldStyle(RoundedBorderTextFieldStyle())
-             .padding()
-
-         }
-         .navigationTitle(box.name)
-         .toolbar {
-             ToolbarItem (placement: .navigationBarTrailing) {
-                 Button {
-                     showEditBoxForm = true
-                 } label: {
-                     Image(systemName: "info.circle")
-                         .foregroundColor(.orange)
-                 }
-                 .popover(isPresented: $showEditBoxForm) {
-                     VStack {
-                         EditBoxDetails(box: $box,
-                                        isPresented: $showEditBoxForm)
-                     }
-                 }
-             }
-         }
-         .padding()
-     }
+                    DispatchQueue.main.async {
+                        let newItem = newItemName
+                            .components(separatedBy: "\n")
+                            .map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }
+                            .filter { !$0.isEmpty }
+                        if let lastItem = newItem.last {
+                            //box.items = $viewModel.addItem(box, lastItem)
+                        }
+                    }
+                }
+                .onAppear {
+                    newItemName = box.items.map { $0.name }.joined(separator: "\n")
+                    isNewItemFocused = true
+                }
+        }
+        .navigationTitle("Items in \(box.name)")
+        .toolbar {
+            ToolbarItem (placement: .navigationBarTrailing) {
+                Button {
+                    showEditBoxForm = true
+                } label: {
+                    Image(systemName: "info.circle")
+                        .foregroundColor(.orange)
+                }
+                .popover(isPresented: $showEditBoxForm) {
+                    VStack {
+                        EditBoxDetails(box: $box,
+                                       isPresented: $showEditBoxForm)
+                    }
+                }
+            }
+        }
+        .padding()
+    }
 }
