@@ -6,13 +6,15 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct BoxListView: View {
 
     // MARK: - Properties
-    
-    @StateObject var viewModel = BoxListViewModel(boxList: Box.dummyData(5))
+
+    @StateObject var viewModel = BoxListViewModel(boxList: Box.dummyData(6))
     @State private var showAddBoxForm = false
+    @Environment(\.modelContext) private var modelContext
 
     // MARK: - View
 
@@ -25,6 +27,7 @@ struct BoxListView: View {
                         .padding()
                 }
                 List($viewModel.boxList) { box in
+
                     NavigationLink {
                         BoxItemsListView(box: box)
                     } label: {
@@ -34,7 +37,6 @@ struct BoxListView: View {
                 .toolbar(content: {
                     ToolbarItem(placement: .bottomBar) {
                         Button {
-                            //newBoxName = "" 
                             showAddBoxForm = true
                         } label: {
                             HStack {
@@ -48,10 +50,20 @@ struct BoxListView: View {
                 })
                 .tint(.orange)
             }
+            .onAppear {
+                #if !DEBUG
+                    viewModel.boxList = viewModel.fetchBoxes(context: modelContext)
+                #endif
+            }
             .navigationTitle("List of Boxes")
+            .navigationBarBackButtonHidden(true)
             .sheet(isPresented: $showAddBoxForm) {
                 AddNewBoxView(isPresented: $showAddBoxForm) { newBox in
-                    viewModel.boxList.append(newBox)
+                    let box = Box(name: newBox.name)
+                    viewModel.addBox(box: box, context: modelContext)
+                    // even calling it here is not helping
+                    viewModel.boxList = viewModel.fetchBoxes(context: modelContext)
+                    print(box)
                 }
             }
         }
@@ -59,5 +71,5 @@ struct BoxListView: View {
 }
 
 #Preview {
-    BoxListView()
+    BoxListView(viewModel: BoxListViewModel(boxList: Box.dummyData(6)))
 }
