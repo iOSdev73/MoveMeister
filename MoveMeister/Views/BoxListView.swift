@@ -12,7 +12,7 @@ struct BoxListView: View {
 
     // MARK: - Properties
 
-    @StateObject var viewModel = BoxListViewModel(boxList: Box.dummyData(6))
+    @StateObject var viewModel = BoxListViewModel()
     @State private var showAddBoxForm = false
     @Environment(\.modelContext) private var modelContext
 
@@ -26,12 +26,16 @@ struct BoxListView: View {
                     EmptyBoxView()
                         .padding()
                 }
-                List($viewModel.boxList) { box in
-
-                    NavigationLink {
-                        BoxItemsListView(box: box)
-                    } label: {
-                        Text(box.wrappedValue.name.capitalized)
+                List {
+                    ForEach($viewModel.boxList) { box in
+                        NavigationLink {
+                            BoxItemsListView(box: box)
+                        } label: {
+                            Text(box.wrappedValue.name.capitalized)
+                        }
+                    }
+                    .onDelete { indexSet in
+                        viewModel.onDelete(at: indexSet, modelContext)
                     }
                 }
                 .toolbar(content: {
@@ -51,9 +55,7 @@ struct BoxListView: View {
                 .tint(.orange)
             }
             .onAppear {
-                #if !DEBUG
                     viewModel.boxList = viewModel.fetchBoxes(context: modelContext)
-                #endif
             }
             .navigationTitle("List of Boxes")
             .navigationBarBackButtonHidden(true)
@@ -61,9 +63,6 @@ struct BoxListView: View {
                 AddNewBoxView(isPresented: $showAddBoxForm) { newBox in
                     let box = Box(name: newBox.name)
                     viewModel.addBox(box: box, context: modelContext)
-                    // even calling it here is not helping
-                    viewModel.boxList = viewModel.fetchBoxes(context: modelContext)
-                    print(box)
                 }
             }
         }

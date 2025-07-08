@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct MoveMeisterApp: App {
@@ -14,5 +15,6 @@ struct MoveMeisterApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Box.self)
     }
 }

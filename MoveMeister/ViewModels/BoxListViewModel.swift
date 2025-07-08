@@ -19,12 +19,7 @@ class BoxListViewModel: ObservableObject {
         self.items = items
     }
 
-//    func addBox(box: Box) {
-//        boxList.append(box)
-//        self.objectWillChange.send()
-//    }
-
-    // MARK: - Box List Management via SiwftData
+    // MARK: - Box List Management
 
     func fetchBoxes(context: ModelContext) -> [Box] {
         let descriptor = FetchDescriptor<Box>()
@@ -43,21 +38,16 @@ class BoxListViewModel: ObservableObject {
         boxList = fetchBoxes(context: context)
     }
 
+    func onDelete(at indexSet: IndexSet, _ modelContext: ModelContext) {
+        for index in indexSet {
+            let box = boxList[index]
+            removeBox(box: box, context: modelContext)
+        }
+    }
+
     func removeBox(box: Box, context: ModelContext) {
         context.delete(box)
         try? context.save()
         boxList = fetchBoxes(context: context)
     }
-
-    //  Items List
-
-//    func addItem(_ box: Box, _ newItem: String) -> [Item]{
-//        var boxWithNewItem = box
-//        if !newItem.isEmpty {
-//            boxWithNewItem.items.append(Item(name: newItem))
-//            self.objectWillChange.send()
-//        }
-//        return boxWithNewItem.items
-//    }
-
 }
